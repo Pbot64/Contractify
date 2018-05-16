@@ -1,0 +1,93 @@
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+header a {
+  color:white;
+}
+
+h3 {
+    text-align: center;
+}
+.btn p {
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.btn {
+    box-shadow: 0 2px 10px 0 #d4d7dc;
+    cursor: pointer;
+    border-radius: 20px;
+    display: block;
+    background-color: #f4d00c;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.3);
+    transform:translateY(-5px)
+}
+
+.btn img {
+    margin-bottom: 15px;
+}
+
+.btn h3 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+.btn p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media all and (min-width: 900px) {
+
+    .btn {
+    margin: 20px;
+        width: 300px;
+    }
+
+    .container_row1,
+    .container_row2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+}
+
+.btn img {
+
+    margin-left: 0;
+    margin-right: 0;
+        width: 60px;
+    z-index: 1000;
+    }
+
+
+
+
+.container_buttons {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    display: block;
+    width: 300px;
+    margin: 0 auto
+}

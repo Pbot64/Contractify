@@ -1,0 +1,13 @@
+.accountInfo_container {
+  display: block;
+  background-color: lightgrey;
+  height: 100px;
+  width: 100%;
+
+}
+
+p {
+  font-size: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
