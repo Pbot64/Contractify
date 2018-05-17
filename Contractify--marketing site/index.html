@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel='stylesheet' href='main.css'>
+    <link href="https://fonts.googleapis.com/css?family=Bitter:bold" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+
+    <script type="text/javascript" src="web3.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+    
+    
+   if (typeof web3 !== 'undefined') {
+  web3 = new Web3(web3.currentProvider);
+} else {
+  // set the provider you want from Web3.providers
+  web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+}
+    
+    
+</script>
+   
+
+</head>
+    
+<body>
+<header>
+<nav class="nav">
+  <a class="navbar-brand" href="#">
+    <img class ='logo' src='paper.svg' alt="">
+  </a>
+    <div class="navbar-nav">
+      <a class = 'icons' id="home" href="#">Home </a>
+      <a class = 'icons'  id="smart_contracts" href="#">Smart Contracts</a>
+      <a class = 'icons'  id="pricing" href="#">Pricing</a>
+      <a class = 'icons'  id="license" href="#">License </a>
+          
+     <!--   <a class = 'icons_2'  id="sign_up" href="#">Sign-up/ </a>
+         <a class = 'icons_2'  id="login" href="#">Login-in </a> -->
+    
+    </div>
+    
+</nav>   
+ 
+ </header>    
+    
+
+    
+    <section class='panel_1'>
+<h1 class='main_title'>Contractify</h1>        
+
+<h3 class= 'sub_title'>smart contracts at your fingertips.</h3>
+ 
+<div class= 'get_started_container'>        
+<a href = http://contractify.net/contracts/  class="ghost-button no-width info-button top">Start Now</a>
+</div>    
+       <img class ='transition' src=/SVG/page_1_svg.svg alt=""> 
+        
+    </section>
+    
+    <section class = 'panel_3'>
+    
+            
+<div class='row'>
+    <div class ='icon_container_1'> 
+<img class ='cool_icons' src ="SVG/responsive.svg" height = '150px'>
+        <h2 class= 'info_1'>No Coding <br>Required</h2> 
+    </div>   
+    
+    
+<div class= 'icon_container_1' >        
+       <img class ='cool_icons' id='cool_icons_2' src ="certificate-01.svg" height = '150px'>
+<h2 class= 'info_1'>Highly <br>Customizable</h2>
+    
+    </div>
+    <div class= 'icon_container_1' >  
+          <img class ='cool_icons' src ="wall-clock-01.svg" height = '150px'>
+<h2 class= 'info_1'>Finish in <br>Minutes </h2>  
+  
+    </div>
+</div>           
+    
+    
+    
+    </section>
+    
+    <section class = 'panel_5'>
+    <h6 class="page_5_title">What Can Smart Contracts Do For Me?</h6>
+    <div class = 'paragraph_container'> 
+       
+        <p class ='paragraph'>Smart contracts help you exchange money, property, shares, or anything of value in a transparent, conflict-free way while avoiding the services of a middleman. smart contracts not only define the rules and penalties around an agreement in the same way that a traditional contract does, but also automatically enforce those obligations.
+
+
+
+</p>
+         <img class = 'smart_contract_icon' src="smart-contract.svg" height='430px'>
+    </div>   
+    </section>
+    
+    <section id = 'panel_2' class='panel_2'>
+<h6 class='page_2_title'>OUR SMART CONTRACTS</h6>
+        
+        
+        <div class="container blue-background carousel-nav">
+			<section>
+				<div class="features-nav">
+					<a href="#" class="tab active" data-target="1">Make a Token</a>
+					<a href="#" class="tab" data-target="2">Schedule an Airdrop</a>
+					<a href="#" class="tab" data-target="3">Schedule a Crowdsale</a>
+					<a href="#" class="tab" data-target="4">Issue a Loan</a>
+					<a href="#" class="tab" data-target="5">Set-up a Trust</a>
+					<a href="#" class="tab" data-target="6">Acquire a Trademark</a>
+				
+                    
+                    
+                    
+				</div>
+			</section>
+        </div>
+                <div class="container no-side-pad">
+	<section id="cpy-carousel">
+                    <div class="blue-white-background container">
+			<div class="feature-arrow left-arrow">
+				<img src="arrow-left.svg" alt="Next Feature">
+			</div>
+			<section class="features">
+				<div class="slide" data-target="1">
+					<div class="feature invoicing">
+						<div class="feature-content">
+								<h7>Make a Token</h7>
+																	<p class = 'slide_info_1'>Release a new fully-customizable token on the Ethereum blockchain. Whether your planning to tokenize your company's stock or create a blockchain-backed loyalty program, we've got the tools to get it done.</p>
+																							<a href = http://contractify.net/contracts/ class="ghost-button no-width info-button">Try it free</a>
+													</div>
+						<div class="feature-image">
+															<img src='chip.svg' height="300px" alt="token">
+													</div>
+					</div>
+				</div>
+				<div class="slide" data-target="2">
+					<div class="feature expenses">
+						<div class="feature-content">
+								<h3>Schedule an Airdrop</h3>
+																	<p></p>
+																							<a class="ghost-button no-width info-button" href="/expenses-and-receipts-tracking">Try it free</a>
+													</div>
+						<div class="feature-image">
+							<img src="airdrop.svg" height="400px" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="slide" data-target="3">
+					<div class="feature time-tracking">
+						<div class="feature-content">
+								<h3>Schedule a Crowdsale</h3>
+								<p></p>
+															<a class="ghost-button no-width info-button" href=''>Try it free</a>
+													</div>
+						<div class="feature-image">
+							<img src="/_themes/freshbooks/smux-assets/img/carousel/carousel-time-tracking.png" srcset="/_themes/freshbooks/smux-assets/img/carousel/carousel-time-tracking@2x.png 2x" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="slide" data-target="4">
+					<div class="feature projects">
+						<div class="feature-content">
+								<h3>Issue a Loan</h3>
+								<p></p>
+															<a class="ghost-button no-width info-button" href="">Try it free</a>
+													</div>
+						<div class="feature-image">
+							<img src="/_themes/freshbooks/smux-assets/img/carousel/carousel-projects.png" srcset="/_themes/freshbooks/smux-assets/img/carousel/carousel-projects@2x.png 2x" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="slide" data-target="5">
+					<div class="feature payments">
+						<div class="feature-content">
+								<h3>Set-up a Trust</h3>
+																	<p></p>
+																							<a class="ghost-button no-width info-button" href="">Try it free</a>
+													</div>
+						<div class="feature-image">
+															<img src="/_themes/freshbooks/smux-assets/img/carousel/carousel-payments.png" srcset="/_themes/freshbooks/smux-assets/img/carousel/carousel-payments@2x.png 2x" alt="">
+													</div>
+					</div>
+				</div>
+				<div class="slide" data-target="6">
+					<div class="feature reporting">
+						<div class="feature-content">
+								<h3>Acquire a Trademark</h3>
+																	<p></p>
+																							<a class="ghost-button no-width info-button" href="">Try it free</a>
+													</div>
+						<div class="feature-image">
+															<img src="/_themes/freshbooks/smux-assets/img/carousel/carousel-reports.png" srcset="/_themes/freshbooks/smux-assets/img/carousel/carousel-reports@2x.png 2x" alt="">
+													</div>
+					</div>
+                </div>
+			
+
+							</section>
+			<div class="feature-arrow right-arrow">
+				<img src="arrow-right.svg" alt="Previous Feature">
+			</div>
+		</div>             
+                    </section>
+        </div>
+        
+         <h3 class ='success'> </h3>
+        <h5 class = 'contract'> </h5>
+        
+        
+   
+        
+        </section>
+    <footer class ='footer'>
+        <h4>Copyright 2018 Contractify</h4>
+    
+    </footer>
+        
+<script>
+   
+
+     
+    </script>    
+    
+ <script>
+     
+
+  var myContract;
+
+     
+   
+     
+$(document).ready(function () {
+	$('.tab').click(function(e) {
+		e.preventDefault();
+
+		$('.tab').removeClass('active');
+		$(this).addClass('active');
+
+		var target = $(this).data('target'),
+			targetSlide = $('.slide[data-target="' + target + '"]');
+
+		$('.slide').hide();
+		$(targetSlide).show();
+
+		var visibleSlide = $(".slide:visible");
+
+		arrowHandler();
+	});
+
+	$('.left-arrow').click(function(e) {
+		var visibleSlide = $(".slide:visible");
+		visibleSlide.prev().show();
+		visibleSlide.hide();
+
+		var activeTab = $(".tab.active");
+		activeTab.prev().addClass("active");
+		activeTab.removeClass("active");
+
+		arrowHandler();
+	});
+
+	$('.right-arrow').click(function(e) {
+		var visibleSlide = $(".slide:visible");
+		visibleSlide.next().show();
+		visibleSlide.hide();
+
+		var activeTab = $(".tab.active");
+		activeTab.next().addClass("active");
+		activeTab.removeClass("active");
+
+		arrowHandler();
+
+	});
+
+	function arrowHandler() {
+		if ($(".slide:visible").attr("data-target") == 1) {
+			$(".left-arrow").hide();
+			$(".right-arrow").show();
+		} else if ($(".slide:visible").attr("data-target") == 6) {
+			$(".right-arrow").hide();
+			$(".left-arrow").show();
+		} else {
+			$(".left-arrow").show();
+			$(".right-arrow").show();
+		}
+	}
+});
+
+
+
+
+     
+     
+</script>
+     <script> 
+         
+
+
+    
+       var tokenName = $("input[name='token_name']").val();   
+var tokenSymbol = $("input[name='token_symbol']").val(); 
+var initialSupply = $("input[name='initial_supply']").val(); 
+           
+
+
+
+ 
+      
+    
+
+
+       
+    </script>
+    
+    
+       
+    
+   
+</body>
+</html>
